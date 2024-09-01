@@ -1,0 +1,4 @@
+for i in range(1,1000):
+   Va,Vb,Vo,S=[int(x)for x in input().split()]
+   d=Vo*S/(Va+Vb)
+   print(int(d))
